@@ -8,4 +8,5 @@
         <color name="chat_title">#00ccff</color>
       <color name="black">#000000</color>
       <color name="joinchat_corner_bg">#ff5e5e</color>
+	   <color name="red_color">#dd0000</color>
 </resources>
