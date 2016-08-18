@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Method</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+     <string name="title_note">育儿有道</string>
+     <string name="join_chat">加入热聊</string>
+     <string-array name="spinner">
+         <item>重庆</item>
+              <item>北京</item>
+                   <item>上海</item>
+     </string-array>
+</resources>

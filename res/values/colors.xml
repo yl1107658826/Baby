@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="title_background">#FE5E5E</color>
+    <color name="red">#dd0000</color>
+     <color name="blue">#0000ff</color>
+       <color name="min">#565656</color>
+        <color name="chat_title">#00ccff</color>
+      <color name="black">#000000</color>
+      <color name="joinchat_corner_bg">#ff5e5e</color>
+</resources>
