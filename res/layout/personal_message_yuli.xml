@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F3F3"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF5D5E"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp" >
+
+        <ImageView
+            android:id="@+id/search_back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="110dp"
+            android:text="个人信息"
+            android:textColor="#EBF0F1"
+            android:textSize="25sp" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:paddingRight="30dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:paddingLeft="20dp"
+            android:text="头像"
+            android:textSize="20sp" >
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+        </TextView>
+	
+        <com.example.baby.CircleImageView
+            android:id="@+id/userimage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/user_none_image" 
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:paddingRight="30dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="12dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="12dp"
+            android:text="用户名"
+            android:textSize="20sp" >
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="2dp"
+            android:text="xxxxxxxxxxx"
+            android:textSize="18sp" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:paddingRight="30dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:paddingBottom="12dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="12dp"
+            android:text="密码"
+            android:textSize="20sp" >
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="2dp"
+            android:text="修改密码"
+            android:textSize="18sp" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:paddingRight="30dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="12dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="12dp"
+            android:text="开通vip服务"
+            android:textSize="20sp" >
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="2dp"
+            android:text="未开通"
+            android:textSize="18sp" >
+        </TextView>
+
+        <ImageView
+            android:id="@+id/open_vip_right_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:src="@drawable/btn_right_arrow" >
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:paddingRight="30dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:paddingBottom="12dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="12dp"
+            android:text="绑定手机号"
+            android:textSize="20sp" >
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="2dp"
+            android:text="未绑定"
+            android:textSize="18sp" >
+        </TextView>
+
+        <ImageView
+            android:id="@+id/bound_phone_right_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:src="@drawable/btn_right_arrow" >
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:paddingRight="30dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:paddingBottom="12dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="12dp"
+            android:text="当前城市"
+            android:textSize="20sp" >
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="2dp"
+            android:text="重庆"
+            android:textSize="18sp" >
+        </TextView>
+
+        <ImageView
+            android:id="@+id/current_city_right_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:src="@drawable/btn_right_arrow" >
+        </ImageView>
+    </LinearLayout>
+
+</LinearLayout>

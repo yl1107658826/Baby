@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FF5D5E"
+        android:gravity="center"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        >
+        
+        <ImageView 
+            android:id="@+id/search_back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="21dp"
+            android:src="@drawable/back"/>
+        <EditText 
+            android:id="@+id/search_edittext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint=" 输入你想要搜索的内容"
+            android:singleLine="true"
+            android:textSize="11.76sp"
+            android:textColorHint="#888888"
+            android:layout_marginLeft="20dp"
+            android:padding="8dp"
+            android:background="@drawable/edittext_style_yuli"/>
+        <TextView android:id="@+id/search_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="搜索"
+            android:textColor="#FFFBFF"
+            android:textSize="15sp"
+            android:layout_marginLeft="20dp"
+            android:padding="6dp"
+           android:background="@drawable/button_style_yuli" />
+    </LinearLayout>
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:background="#ffffff"
+    android:orientation="vertical">
+    <ImageView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/search"/>
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="你还没有搜索过任何内容！"
+        android:layout_marginTop="15dp"
+        android:textColor="#9c9c9c"/>
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="去搜索 看看吧！"
+        android:layout_marginTop="10dp"
+        android:textColor="#9c9c9c"/>
+</LinearLayout>
+</LinearLayout>
