@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="#ff5d5e">
+    <ImageButton
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        android:background="#ff5d5e"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:padding="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="热门讨论"
+        android:textColor="#ffffff"
+        android:layout_centerInParent="true"
+        android:textSize="16sp"/>
+    </RelativeLayout>
+	<ImageView
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@drawable/guanggao"
+        />
+    <ListView
+        android:id="@+id/taolun_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#d3d3d3"
+        android:dividerHeight="1dp"
+        android:fastScrollEnabled="true" >
+    </ListView>
+
+    
+
+</LinearLayout>

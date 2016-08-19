@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <ImageView
+        android:id="@+id/listview_image"
+        android:layout_width="fill_parent"
+        android:layout_height="115dp"
+        android:background="@drawable/baby_one"
+        />
+    <TextView
+        android:id="@+id/title_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1岁以上宝宝安全注意事项大全"
+        android:textSize="10.2sp"
+        android:textColor="#8e8e8e"
+        android:layout_marginBottom="5.5dp"
+        android:paddingLeft="5.5dp"
+        android:paddingTop="2.8sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/abstract_textview"
+        android:text="能够站起来后，你的宝宝周围就成为了一个全新的可以探索的世界——桌面、书架、抽屉和其他从前够不到的地方....."
+        android:textSize="10.2sp"
+        android:textColor="#474747"
+        android:paddingLeft="5.5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="10.2dp"/>
+</LinearLayout>
