@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:background="#FF5D5E"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+
+        <ImageView 
+            android:id="@+id/fanhui_view"
+            android:src="@drawable/zoujiantou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/yuerbiji_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="育儿笔记"
+            android:textColor="#84FFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/bianji_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:textColor="#84FFFF"
+            android:text="编辑" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/wenzihuiyi_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/wenzihuiyi"
+            android:gravity="center"
+            android:text="文字回忆" />
+
+        <TextView
+            android:id="@+id/diy_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/diy"
+            android:gravity="center"
+            android:text="个性DIY回忆" />
+
+        <TextView
+            android:id="@+id/xiangcehuiyi_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/xiangcehuiyi"
+            android:gravity="center"
+            android:text="相册回忆" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#C6C6C6" />
+ <LinearLayout 
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical"
+     
+     >
+
+            <ImageView
+                android:id="@+id/view_image"
+            android:layout_width="211dp"
+            android:layout_height="183dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:src="@drawable/mei" />
+            
+        <EditText
+            android:background="@drawable/kuang"
+            android:layout_width="350dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center" 
+            android:hint="文字描述，100字以内~~~"
+            ></EditText>
+
+            </LinearLayout>
+        
+    
+  
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:background="#C6C6C6" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="130dp" >
+
+        <Button
+            android:id="@+id/baocun_button"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/yuan_baocun"
+            android:text="保存"
+            android:textColor="#84FFFF" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

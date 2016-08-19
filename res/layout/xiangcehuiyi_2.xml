@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#FF5D5E" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/zoujiantou" />
+
+        <TextView
+            android:id="@+id/mengmei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:text="编辑"
+            android:textColor="#84FFFF" />
+
+        <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="95dp"
+            
+            android:text="育儿笔记"
+            android:textColor="#84FFFF"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:layout_alignParentBottom="true" >
+
+        <Button
+            android:id="@+id/tianjiatupian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/yuan_baocun"
+            android:text="添加图片"
+            android:textColor="#84FFFF" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_above="@id/bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:orientation="vertical" >
+
+       
+
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </ListView>
+
+        <TextView
+            android:paddingTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#C6C6C6" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+           android:paddingTop="15dp"
+            android:background="#C6C6C6" />
+    </LinearLayout>
+
+</RelativeLayout>
