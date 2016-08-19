@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7" >
+    </FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#efefef"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/shuoye_view"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/shouye"
+            android:gravity="center"
+            android:text="首页"
+            android:textColor="@drawable/selector_main_textcolor" />
+
+        <RadioButton
+            android:id="@+id/biji_view"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/yuer"
+            android:gravity="center"
+            android:text="育儿笔记"
+            android:textColor="@drawable/selector_main_textcolor" />
+
+        <RadioButton
+            android:id="@+id/wode_view"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/touxiang"
+            android:gravity="center"
+            android:text="我的"
+            android:textColor="@drawable/selector_main_textcolor" />
+    </RadioGroup>
+
+</LinearLayout>

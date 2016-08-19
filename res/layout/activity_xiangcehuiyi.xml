@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+      <LinearLayout
+       android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#ff5d5e"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/btn_bacak" 
+            android:layout_marginTop="9dp"
+            android:layout_marginLeft="18dp"/>
+
+        <TextView
+            android:id="@+id/textview_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="育儿笔记"
+            android:textColor="#ffffff"
+            android:textSize="20sp" 
+            android:layout_marginLeft="100dp"/>
+
+        <Button
+            android:id="@+id/btn_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:background="@null"
+            android:text="编辑"
+            android:textColor="#ffffff" 
+            android:layout_marginLeft="70dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:src="@drawable/home_bth" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:src="@drawable/hom" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:src="@drawable/home" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="文字回忆"
+            android:textColor="#7c7c7c" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="个性DIY回忆"
+            android:textColor="#7c7c7c" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="相册回忆"
+            android:textColor="#7c7c7c" />
+    </LinearLayout>
+       <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="240dp" 
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="你还没有为宝宝编辑过DIV哦"
+            android:textColor="#bbbbbb"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text"
+            android:layout_centerInParent="true"
+            android:text="赶紧去为宝宝DIY一张专属相片吧！"
+            android:textColor="#bbbbbb"
+            android:textSize="15sp" />
+    </RelativeLayout>
+    <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="场景特效"
+            android:layout_marginLeft="10dp"/>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+         
+        
+        <TextView
+           android:layout_width="0dp"
+           android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/pic_1"
+            android:text="雪花特效"
+            android:gravity="center" />
+        <TextView
+           android:layout_width="0dp"
+           android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/pic_2"
+            android:text="浪漫花瓣"
+            android:gravity="center" />
+        <TextView
+           android:layout_width="0dp"
+           android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/pic_3"
+            android:text="七彩光晕"
+            android:gravity="center" />
+        <TextView
+           android:layout_width="0dp"
+           android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/pic_4"
+            android:text="平安夜"
+            android:gravity="center" />
+        
+        
+    </LinearLayout>
+     <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+    
+    <Button 
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:text="添加图片"
+        android:textSize="15sp"
+        android:layout_centerInParent="true"
+        android:textColor="#ffffff"
+        android:background="@drawable/btn_bacakground"
+        android:id="@+id/btn_addimg"/>
+    </RelativeLayout>
+     
+   
+  
+   
+</LinearLayout>
